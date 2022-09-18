@@ -40,3 +40,25 @@
         border: none;
     }
 }
+
+
+@media (max-width:770px){
+    .header{
+        &__title{
+            font-size: 40px;
+            line-height: 40px;
+            width: 80%;
+        }
+    }
+}
+
+@media (max-width:390px){
+    .header{
+        // background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        &__title{
+            width: 100%;
+        }
+    }
+}
