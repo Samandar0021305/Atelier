@@ -50,6 +50,11 @@
             width: 80%;
         }
     }
+    #text{
+        font-size: 40px;
+        line-height: 40px;
+        width: 80%;
+    }
 }
 
 @media (max-width:390px){
@@ -61,4 +66,18 @@
             width: 100%;
         }
     }
+    #text{
+        width: 100%;
+    }
 }
+
+#text{
+    font-weight: 400;
+    font-size: 70px !important;
+    line-height: 60px;
+    display: flex;  
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF !important;
+    margin: 20px 0;
+  }
