@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atelier</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
@@ -26,31 +27,36 @@
             <img class="navbar__toogle" src="./assets/icon/toogle.png" alt="navbar-logo">
 
             <ul class="navbar__list navbar__box">
-                <li class="navbar__item">
+                <li data-aos="fade-up"
+                data-aos-duration="5000" class="navbar__item">
                     <a class="navbar__link" href="#">
                         Overview
                     </a>
                     <span class="navbar__hover"></span>
                 </li>
-                <li class="navbar__item">
+                <li data-aos="fade-up"
+                data-aos-duration="5000" class="navbar__item">
                     <a class="navbar__link" href="#">
                         Pages
                     </a>
                     <span class="navbar__hover"></span>
                 </li>
-                <li class="navbar__item">
+                <li data-aos="fade-up"
+                data-aos-duration="5000" class="navbar__item">
                     <a class="navbar__link" href="#">
                         Portfolio
                     </a>
                     <span class="navbar__hover"></span>
                 </li>
-                <li class="navbar__item">
+                <li data-aos="fade-up"
+                data-aos-duration="5000" class="navbar__item">
                     <a class="navbar__link" href="#">
                         Template
                     </a>
                     <span class="navbar__hover"></span>
                 </li>
-                <li class="navbar__item">
+                <li data-aos="fade-up"
+                data-aos-duration="5000" class="navbar__item">
                     <a class="navbar__link" href="#">
                         Contact
                     </a>
@@ -240,5 +246,9 @@
     </main>
 
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 <script src="./js/script.js"></script>
 </html>
