@@ -1,0 +1,89 @@
+.navbar{
+    background: #181511;
+    padding: 10px 10px;
+    position: sticky;
+    top: 0;
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__toogle{
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    &__list{
+        width: 40%;
+        margin-right: auto;
+        margin-left: 40px;
+    }
+    &__link{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #ACA592;
+        
+        transition: color 0.5s ease-in-out;
+    }
+    &__link:hover{    
+    color: #FFAE2B;
+    }
+    &__title{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;        
+        color: #FFAE2B;
+    }
+    &__hover{
+        width: 0;
+        height: 1px;
+        display: flex;
+        background-color: #FFAE2B;
+        transition: width 0.3s ease-in-out;
+    }
+    &__link:hover ~ &__hover{
+        width: 100%;
+    }
+    &__btn{
+        border: 1px solid #FFAE2B;
+        border-radius: 0px;
+        color: #FFAE2B;
+        background-color: transparent;
+        padding: 12px 26px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:770px){
+    .navbar{
+      &__list{
+        margin: 0;
+        width: 60%;
+      }
+      &__link{
+        font-size: 8px;
+      }
+      &__btn{
+        padding: 8px 20px;
+      }
+    }
+}
+
+@media (max-width:600px){
+    .navbar{
+        &__list{
+            display: none;
+        }
+        &__btn{
+            display: none;
+        }
+        &__toogle{
+            display: flex;
+        }
+    }
+}
