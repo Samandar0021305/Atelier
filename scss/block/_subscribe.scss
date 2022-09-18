@@ -1,0 +1,46 @@
+.subscribe{
+    padding-top: 40px;
+    margin-top: 40px;
+    &__title{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFAE2B;
+    }
+    &__text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 28px;
+        text-align: center;
+        color: #ACA592;
+        margin-top: 20px;
+    }
+    &__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__item{
+        
+    border: 1px solid #4B4136;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    }
+}
+
+@media (max-width:400px){
+    .subscribe{
+        &__title{
+            font-size: 30px;
+        }
+    }
+}
