@@ -1,0 +1,36 @@
+.service{
+  padding-top: 70px;
+  &__list{
+    padding: 20px 40px;
+    display: flex;
+    padding-top: 60px;
+    // align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__item{
+    width: 300px;
+    height: 250px;
+    border: 1px solid #4B4136;
+    border-radius: 0px;
+    padding: 30px;
+    transition: margin-top 0.4s ease-in;
+  }
+  &__title{
+    font-style: normal;
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 40px;
+        color: #FFAE2B;
+  }
+  &__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #ACA592;
+  }
+  &__item:hover{
+    margin-top: 20px;
+  }
+}
