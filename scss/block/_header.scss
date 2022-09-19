@@ -1,3 +1,14 @@
+
+#text{
+    font-weight: 400;
+    font-size: 70px !important;
+    line-height: 60px;
+    display: flex;  
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF !important;
+    margin: 20px 0;
+  }
 .header{
     background-repeat: no-repeat;
     height: calc(100vh - 64.39px);
@@ -52,7 +63,7 @@
         }
     }
     #text{
-        font-size: 40px;
+        font-size: 40px !important;
         line-height: 40px;
         width: 80%;
     }
@@ -72,13 +83,3 @@
     }
 }
 
-#text{
-    font-weight: 400;
-    font-size: 70px !important;
-    line-height: 60px;
-    display: flex;  
-    text-align: center;
-    letter-spacing: 1px;
-    color: #FFFFFF !important;
-    margin: 20px 0;
-  }
