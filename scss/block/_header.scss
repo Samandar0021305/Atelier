@@ -10,9 +10,9 @@
     margin: 20px 0;
   }
 .header{
-    background-repeat: no-repeat;
     height: calc(100vh - 64.39px);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("../../assets/img/header-img.png");
+    background-repeat: no-repeat !important;
     border-radius: 0px;
     &__box{
         width: 100%;
